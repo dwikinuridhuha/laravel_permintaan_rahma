@@ -1,0 +1,16 @@
+.tanda-tanggan {
+    height: 3px;
+    width: 60%;
+    background-color: #000;
+    margin: 120px auto 0;
+}
+
+.col-1 {
+    max-width: 10.333333% !important;
+    flex: 0 0 10.333333% !important;
+}
+
+.col-11 {
+    max-width: 85.333333% !important;
+    flex: 0 0 85.333333% !important;
+}
