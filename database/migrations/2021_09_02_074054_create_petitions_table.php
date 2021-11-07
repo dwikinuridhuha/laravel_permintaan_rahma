@@ -17,6 +17,8 @@ class CreatePetitionsTable extends Migration
             $table->bigIncrements('id');
             $table->string('nama');
             $table->string('alamat');
+            $table->string('kelas');
+            $table->string('orang');
             $table->bigInteger('hp');
             $table->string('jabatan');
             $table->text('keperluan');

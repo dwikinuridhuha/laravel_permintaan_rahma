@@ -5,12 +5,21 @@
     margin: 120px auto 0;
 }
 
+.ukuran-font {
+    font-size: 20px;
+}
+
+.spasi-baris {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .col-1 {
-    max-width: 10.333333% !important;
-    flex: 0 0 10.333333% !important;
+    max-width: 15% !important;
+    flex: 0 0 15% !important;
 }
 
 .col-11 {
-    max-width: 85.333333% !important;
-    flex: 0 0 85.333333% !important;
+    max-width: 85% !important;
+    flex: 0 0 85% !important;
 }

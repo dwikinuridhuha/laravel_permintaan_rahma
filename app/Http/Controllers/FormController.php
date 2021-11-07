@@ -17,6 +17,8 @@ class FormController extends Controller
 
         $formInput = new Petition;
         $formInput->nama = $request->inputNama;
+        $formInput->orang = $request->inputNamaSiswa;
+        $formInput->kelas = $request->inputKelas;
         $formInput->alamat = $request->inputAlamat;
         $formInput->hp = $request->inputNo;
         $formInput->jabatan = $request->inputJabatan;
